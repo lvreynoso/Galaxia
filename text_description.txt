@@ -1,5 +1,0 @@
-Unlocks the World Shaper ascension perk for Hive Minds (biological Gestalt Consciousnesses). Hive Minds can now terraform worlds into Gaia Worlds!
-
-Inspired by the Gaia group consciousness and Galaxia option from Isaac Asimov's last Foundation books, Foundation's Edge & Foundation and Earth. Also it seemed kind of silly that a Hive Mind could choose the life-seeded origin option and thus start on a Gaia world, but never again terraform another one!
-
-Should be compatible with any other mods that do not touch the World Shaper ascension perk, including mods that add other ascension perks; e.g., I tested this with Expanded Stellaris Traditions and it worked.

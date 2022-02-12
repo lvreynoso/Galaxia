@@ -1,36 +1,3 @@
-ap_galaxia = {
-	possible = {
-		custom_tooltip = {
-			fail_text = "requires_technology_tech_climate_restoration"
-			has_technology = tech_climate_restoration
-		}
-		custom_tooltip = {
-			fail_text = "requires_ascension_perks_1"
-			num_ascension_perks > 0
-		}
-	}
-
-	modifier = {
-		terraforming_cost_mult = -0.25
-	}
-
-	on_enabled = {
-		custom_tooltip = "allow_gaia"
-	}
-
-	potential = {
-		NOT = {
-			has_ascension_perk = ap_galaxia
-			has_ascension_perk = ap_world_shaper
-		}
-		has_authority = auth_hive_mind
-	}
-
-	ai_weight = {
-		factor = 5
-	}
-}
-
 ap_world_shaper = {
 	possible = {
 		custom_tooltip = {
@@ -64,5 +31,13 @@ ap_world_shaper = {
 
 	ai_weight = {
 		factor = 5
+		modifier = {
+			factor = 0
+			OR = {
+				has_origin = origin_void_dwellers
+				has_origin = origin_shattered_ring
+				has_trait = trait_aquatic
+			}
+		}
 	}
 }

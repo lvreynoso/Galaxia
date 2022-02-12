@@ -1,4 +1,5 @@
-version="1.1"
+version="1.2"
+path="mod/Galaxia"
 tags={
 	"Balance"
 	"Gameplay"
@@ -7,5 +8,5 @@ tags={
 }
 name="Galaxia - Gaia Worlds for Hive Minds"
 picture="thumbnail.png"
-supported_version="3.0.*"
+supported_version="3.2.*"
 remote_file_id="2469178905"
