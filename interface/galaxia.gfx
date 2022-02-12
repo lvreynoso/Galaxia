@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ap_galaxia"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_galaxia.dds"
+		alwaystransparent = yes
+	}
+}
