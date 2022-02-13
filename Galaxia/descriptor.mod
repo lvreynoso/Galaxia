@@ -6,6 +6,6 @@ tags={
 	"Species"
 }
 name="Galaxia - Gaia Worlds for Hive Minds"
-picture="galaxia_thumbnail.png"
+picture="thumbnail.png"
 supported_version="3.2.*"
 remote_file_id="2469178905"
