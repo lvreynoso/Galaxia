@@ -1,5 +1,4 @@
 version="1.2"
-path="mod/Galaxia"
 tags={
 	"Balance"
 	"Gameplay"
